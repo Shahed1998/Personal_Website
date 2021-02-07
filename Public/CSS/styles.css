@@ -1,4 +1,72 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* Dark area of the page */
+.common-page {
+  max-width: 96%;
+  min-height: 94vh;
+  background-color: #222831;
+  margin: 3vh auto;
+  border-radius: 5px;
+  color: #e3f6f5;
+}
+
+/* Navigation menu */
+#navigation-bar {
+  width: 100%;
+  min-height: 10vh;
+}
+
+.myLogo {
+  padding: 3rem 0 0 1rem;
+  width: 10%;
+  transform: rotate(-30deg);
+}
+
+/* Image style */
+
+.myImage {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myImg {
+  width: 80%;
+  border-radius: 100%;
+  vertical-align: middle;
+  animation: 4s infinite alternate bounce;
+}
+
+@keyframes bounce {
+  from {
+    width: 80%;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+/* Text */
+.text {
+  text-align: center;
+}
+
+#myName {
+  font-weight: 900;
+}
+
+#myInfo {
+  width: 70%;
+  margin: 0 auto;
+  font-weight: 500;
 }
