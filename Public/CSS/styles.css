@@ -19,11 +19,10 @@ body {
   color: #e3f6f5;
 }
 
-/* Navigation menu */
+/* ======================================== Navigation menu ========================================== */
 nav {
   height: 10vh;
   position: relative;
-  /* background-color: red; */
 }
 
 .line {
@@ -71,7 +70,6 @@ nav {
   height: 94vh;
   width: 96%;
   flex-direction: column;
-  /* display: none; */
   clip-path: circle(100px at 100% -10%);
   -webkit-clip-path: circle(100px at 100% -20%);
   transition: all 1s ease-out;
@@ -94,6 +92,10 @@ nav {
   font-size: 25px;
 }
 
+.nav-links li a:hover {
+  font-weight: 900;
+}
+
 .nav-links li:nth-child(1) {
   transition: all 0.5s ease 0.2s;
 }
@@ -109,7 +111,8 @@ nav {
 li.fade {
   opacity: 1;
 }
-/* Image style */
+
+/* ======================================== Image ========================================== */
 
 .myImage {
   min-height: 50vh;
@@ -134,7 +137,7 @@ li.fade {
   }
 }
 
-/* Text */
+/* ======================================== Text ========================================== */
 .text {
   text-align: center;
 }
