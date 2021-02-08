@@ -6,4 +6,4 @@ Author : Shahed Chowdhury Omi <br/>
 
 <p>This website is under maintenance.... , as days will pass I will be adding more technologies to it . </p>
 
-<p>Online version of this course is hosted in , https://dynamicportfoliowebsite.herokuapp.com/
+<p>Online version of this app is hosted in , https://dynamicportfoliowebsite.herokuapp.com/
