@@ -147,3 +147,100 @@ li.fade {
   margin: 0 auto;
   font-weight: 500;
 }
+
+/* ======================================== Media query ========================================== */
+@media screen and (min-width: 500px) {
+  .myImage {
+    min-height: 65vh;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #myName {
+    font-size: 170%;
+  }
+
+  #myInfo {
+    font-size: 140%;
+  }
+
+  .nav-links.open {
+    clip-path: circle(1300px at 100% -10%);
+    -webkit-clip-path: circle(1300px at 100% -10%);
+    pointer-events: all;
+  }
+
+  .line {
+    width: 50px;
+    height: 5px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #myName {
+    font-size: 250%;
+  }
+
+  #myInfo {
+    font-size: 180%;
+  }
+
+  .nav-links li a {
+    font-size: 50px;
+  }
+
+  .nav-links.open {
+    clip-path: circle(2000px at 100% -20%);
+    -webkit-clip-path: circle(2000px at 100% -20%);
+    pointer-events: all;
+  }
+
+  .line {
+    width: 80px;
+    height: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    height: 15vh;
+  }
+  .myImg {
+    width: 28%;
+  }
+  @keyframes bounce {
+    from {
+      width: 28%;
+    }
+    to {
+      width: 10%;
+    }
+  }
+
+  .myImage {
+    min-height: 60vh;
+  }
+  #myName {
+    font-size: 250%;
+  }
+
+  #myInfo {
+    font-size: 180%;
+  }
+
+  .nav-links li a {
+    font-size: 50px;
+  }
+
+  .nav-links.open {
+    clip-path: circle(2000px at 100% -20%);
+    -webkit-clip-path: circle(2000px at 100% -20%);
+    pointer-events: all;
+  }
+
+  .line {
+    margin: 6px;
+    width: 70px;
+    height: 5px;
+  }
+}
